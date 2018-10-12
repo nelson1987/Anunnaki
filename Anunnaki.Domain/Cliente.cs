@@ -1,22 +1,25 @@
 using System;
 using System.Collections.Generic;
 
-public class Cliente
+namespace Anunnaki.Domain.Entities
 {
-    public int IdCliente { get; set; }
-    public string Nome { get; set; }
-    public string Email { get; set; }
-    public List<Cartao> Cartoes { get; set; }
-    public List<Compra> Compras { get; set; }
-
-    public bool isValid()
+    public class Cliente
     {
-        if (string.IsNullOrEmpty(Nome))
-            throw new Exception("O nome é obrigatório.");
+        public int IdCliente { get; set; }
+        public string Nome { get; set; }
+        public string Email { get; set; }
+        public List<Cartao> Cartoes { get; set; }
+        public List<Compra> Compras { get; set; }
 
-        if (string.IsNullOrEmpty(Email))
-            throw new Exception("O nome é obrigatório.");
+        public bool isValid()
+        {
+            if (string.IsNullOrEmpty(Nome))
+                throw new Exception("O nome é obrigatório.");
 
-        throw new NotImplementedException();
+            if (string.IsNullOrEmpty(Email))
+                throw new Exception("O nome é obrigatório.");
+
+            throw new NotImplementedException();
+        }
     }
 }
