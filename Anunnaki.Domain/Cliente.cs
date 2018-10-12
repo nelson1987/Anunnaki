@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 public class Cliente
@@ -7,4 +8,15 @@ public class Cliente
     public string Email { get; set; }
     public List<Cartao> Cartoes { get; set; }
     public List<Compra> Compras { get; set; }
+
+    public bool isValid()
+    {
+        if (string.IsNullOrEmpty(Nome))
+            throw new Exception("O nome é obrigatório.");
+
+        if (string.IsNullOrEmpty(Email))
+            throw new Exception("O nome é obrigatório.");
+
+        throw new NotImplementedException();
+    }
 }

@@ -1,6 +1,7 @@
+using Anunnaki.Domain.Interfaces;
 using System.Collections.Generic;
 
-public class Compra
+public class Compra : IEntity
 {
     public int IdCompra { get; set; }
     public int IdCliente { get; set; }
@@ -8,4 +9,9 @@ public class Compra
     public List<Item> Itens { get; set; }
     public Cliente Cliente { get; set; }
     public Cartao Cartao { get; set; }
+
+    public bool isValid()
+    {
+        throw new System.NotImplementedException();
+    }
 }
