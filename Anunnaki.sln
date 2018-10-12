@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_Domain", "0_Domain", "{85
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Anunnaki.Domain", "Anunnaki.Domain\Anunnaki.Domain.csproj", "{981CC24A-35B3-44DF-8080-18481CD8DB08}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anunnaki.Domain.Tests", "Anunnaki.Domain.Tests\Anunnaki.Domain.Tests.csproj", "{D214ACF9-1CDF-4CD3-998D-C281BDABBABA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{981CC24A-35B3-44DF-8080-18481CD8DB08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{981CC24A-35B3-44DF-8080-18481CD8DB08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{981CC24A-35B3-44DF-8080-18481CD8DB08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D214ACF9-1CDF-4CD3-998D-C281BDABBABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D214ACF9-1CDF-4CD3-998D-C281BDABBABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D214ACF9-1CDF-4CD3-998D-C281BDABBABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D214ACF9-1CDF-4CD3-998D-C281BDABBABA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{981CC24A-35B3-44DF-8080-18481CD8DB08} = {8520A604-32EF-4076-9385-6AC12AF18CD8}
+		{D214ACF9-1CDF-4CD3-998D-C281BDABBABA} = {8520A604-32EF-4076-9385-6AC12AF18CD8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6EB8B2B4-7176-4EE6-8C80-B99C8CD15218}
