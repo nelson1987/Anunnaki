@@ -7,7 +7,8 @@ namespace Annunaki.Service.Services
     {
         public void Cadastrar(Cliente cliente)
         {
-
+            //Inserir no banco
+            //Enviar email para o cliente
         }
     }
 }

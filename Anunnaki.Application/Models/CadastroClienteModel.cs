@@ -6,6 +6,8 @@ namespace Anunnaki.Application.Models
     {
         [Required(ErrorMessage ="Nome é obrigatório")]
         public string Nome { get; set; }
+
+        [Required(ErrorMessage = "Email é obrigatório")]
         public string Email { get; set; }
     }
 }
