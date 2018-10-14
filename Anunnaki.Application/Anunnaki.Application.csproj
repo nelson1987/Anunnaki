@@ -8,4 +8,9 @@
     <PackageReference Include="AutoMapper" Version="7.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Annunaki.Services\Annunaki.Service.csproj" />
+    <ProjectReference Include="..\Anunnaki.Domain\Anunnaki.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
