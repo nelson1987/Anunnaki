@@ -21,6 +21,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_Repository", "3_Repositor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Annunaki.Repository", "Annunaki.Repository\Annunaki.Repository.csproj", "{98AAB827-00BB-433C-BC35-51FC221A20D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anunnaki.Application.Tests", "Anunnaki.Application.Tests\Anunnaki.Application.Tests.csproj", "{D97812AB-1C09-4994-BE18-EE88ADB5355F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{98AAB827-00BB-433C-BC35-51FC221A20D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98AAB827-00BB-433C-BC35-51FC221A20D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98AAB827-00BB-433C-BC35-51FC221A20D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97812AB-1C09-4994-BE18-EE88ADB5355F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97812AB-1C09-4994-BE18-EE88ADB5355F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97812AB-1C09-4994-BE18-EE88ADB5355F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97812AB-1C09-4994-BE18-EE88ADB5355F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +63,7 @@ Global
 		{B81DD64A-FA36-4EF2-80CC-604B7DC07D2F} = {729AAF03-45DB-4626-88EA-2A80B4585113}
 		{15F4F535-7174-4D35-B72B-3E1E8919DA40} = {C6208797-1EA8-4E53-BCE6-24FF342F7BBA}
 		{98AAB827-00BB-433C-BC35-51FC221A20D1} = {5A731767-729A-4C18-8E69-E5B73BF903F7}
+		{D97812AB-1C09-4994-BE18-EE88ADB5355F} = {729AAF03-45DB-4626-88EA-2A80B4585113}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6EB8B2B4-7176-4EE6-8C80-B99C8CD15218}
