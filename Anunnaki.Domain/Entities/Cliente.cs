@@ -8,6 +8,7 @@ namespace Anunnaki.Domain.Entities
         public int IdCliente { get; set; }
         public string Nome { get; set; }
         public string Email { get; set; }
+        public DateTime Criacao { get; set; }
         public List<Cartao> Cartoes { get; set; }
         public List<Compra> Compras { get; set; }
 

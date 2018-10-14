@@ -4,10 +4,10 @@ using System;
 
 namespace Anunnaki.Domain.Tests
 {
-    [Test]
+    //[TestCase]
     public class ClienteTests
     {
-        [TestCase]
+        [Test]
         private void CadastrarCliente()
         {
             var nomeCliente = "";
