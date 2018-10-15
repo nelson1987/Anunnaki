@@ -1,7 +1,8 @@
 # Anunnaki - Projeto Final de Curso!
+# Introdução
 Olá, este é o código-fonte do projeto final do curso de C# avançado realizado na COTI Informática. Nele, estou incluindo todas as experiências pessoais anteriores, e o conhecimento adquirido no curso. Abaixo listo todas as metodologias, linguagens e frameworks utilizados no mesmo.
 
-# Metodologias
+## Metodologias
 - Continuous deployment utilizando o [AppHarbour](http://handlebarsjs.com/)
 - Versionamento GIT
 - TDD - Desenvolvimento Orientado à Testes
@@ -9,20 +10,20 @@ Olá, este é o código-fonte do projeto final do curso de C# avançado realizad
 - DDD - Desenvolvimento Orientada ao Domínio
 - Agile - Utilizando User Stories do SCRUM
 
-# IDEs Utilizadas
+## IDEs
 - GITBash
 - GITKraken
 - Visual Studio 2017
 - Visual Code
 
-# Linguagens
+## Linguagens
 -  C#
 - Javascript
 - Html
 - Sql **MSSql** 
 - NoSql **MongoDb** 
 
-# Frameworks
+## Frameworks
 - NodeJs
 - AngularJs
 - JQuery
@@ -35,7 +36,7 @@ Olá, este é o código-fonte do projeto final do curso de C# avançado realizad
 - JWT
 - Identity
 
-# Padrões
+## Padrões
 - Agile 
 - WebApi
 - CQRS
