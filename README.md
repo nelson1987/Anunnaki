@@ -1,29 +1,46 @@
 # Anunnaki - Projeto Final de Curso!
+Olá, este é o código-fonte do projeto final do curso de C# avançado realizado na COTI Informática. Nele, estou incluindo todas as experiências pessoais anteriores, e o conhecimento adquirido no curso. Abaixo listo todas as metodologias, linguagens e frameworks utilizados no mesmo.
 
-Olá, este código é um projeto final do curso de C# avançado da COTI Informática. Nele estou incluindo todas as experiências pessoais anteriores, e o conhecimento adquirido no curso. Abaixo listo todos as metodologias, linguagens e frameworks utilizados no mesmo.
+# Metodologias
+- Continuous deployment utilizando o [AppHarbour](http://handlebarsjs.com/)
+- Versionamento GIT
+- TDD - Desenvolvimento Orientado à Testes
+- BDD - Desenvolvimento Orientado à Comportamento
+- DDD - Desenvolvimento Orientada ao Domínio
+- Agile - Utilizando User Stories do SCRUM
 
-**utilização de github para versionamento
-desenvolvimento nas ides Visual Studio 2017 e Visual Code
-nodejs
-angularjs
-react
-swagger
-aspnetcore
-automapper
-webapi
-cqrs
-dapper
-entityframework
-jwt
-identity
-mongodb
-mssql
-agile
-scrum
-tdd
-bdd
-ddd
-solid**
+# IDEs Utilizadas
+- GITBash
+- GITKraken
+- Visual Studio 2017
+- Visual Code
+
+# Linguagens
+-  C#
+- Javascript
+- Html
+- Sql **MSSql** 
+- NoSql **MongoDb** 
+
+# Frameworks
+- NodeJs
+- AngularJs
+- JQuery
+- React
+- Swagger
+- AspNetCore
+- AutoMapper
+- Dapper
+- EntityFramework
+- JWT
+- Identity
+
+# Padrões
+- Agile 
+- WebApi
+- CQRS
+
+
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
 
